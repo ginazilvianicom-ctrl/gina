@@ -1,7 +1,7 @@
 /* ====== STYLE UMUM ====== */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6f2;
+    background: red;
     color: #b30059;
     margin: 0;
     padding: 0;
@@ -83,6 +83,7 @@ footer {
     display: flex;
     gap: 20px;
 }
+
 
 
 
