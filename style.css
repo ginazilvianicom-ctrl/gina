@@ -76,10 +76,9 @@ footer {
 .cta-button:hover {
     background-color: #c0392b;
 }
-.nav-cta a {
-    text-decoration: none;
-}
+
 .menu-tugas {
     display: flex;
     gap: 20px;
 }
+
