@@ -1,0 +1,100 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background-color: #ffe6f2;
+    color: #b30059;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #ff66b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+/* ===== LOGO ===== */
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ===== MENU UTAMA ===== */
+.main-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.main-menu li {
+    position: relative;
+}
+
+/* ===== LINK MENU ===== */
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    transition: 0.3s;
+}
+
+.main-menu a:hover {
+    background-color: #e60073;
+    border-radius: 5px;
+}
+
+/* ===== DROPDOWN ===== */
+.submenu {
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #ff99cc;
+    min-width: 160px;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* ===== ITEM SUBMENU ===== */
+.submenu li a {
+    padding: 10px;
+    color: #800040;
+}
+
+.submenu li a:hover {
+    background-color: #ff66b2;
+    color: white;
+}
+
+/* ===== SHOW DROPDOWN ===== */
+.dropdown-parent:hover .submenu {
+    display: block;
+}
+
+/* ===== TEKS KONTEN ===== */
+.Teks {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Teks h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.Teks p {
+    font-size: 16px;
+    color: #800040;
+}
