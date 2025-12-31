@@ -1,0 +1,107 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background-color: #fce4ec;
+    color: #6a1b4d;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* ===== JUDUL ===== */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #880e4f;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #ad1457;
+}
+
+/* ===== PARAGRAF ===== */
+p {
+    margin-bottom: 8px;
+}
+
+/* ===== GARIS ===== */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #f8bbd0;
+    margin: 30px 0;
+}
+
+/* ===== LABEL ===== */
+label {
+    font-weight: bold;
+}
+
+/* ===== INPUT & SELECT ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #f48fb1;
+    font-size: 14px;
+}
+
+/* ===== FOCUS ===== */
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #ec407a;
+    box-shadow: 0 0 5px rgba(236, 64, 122, 0.4);
+}
+
+/* ===== RADIO & CHECKBOX ===== */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+    margin-top: 8px;
+}
+
+/* ===== BUTTON ===== */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: #ec407a;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ad1457;
+    transform: scale(1.05);
+}
+
+/* ===== DISABLED ===== */
+input:disabled {
+    background-color: #eeeeee;
+    color: #999;
+}
+
+/* ===== READONLY ===== */
+input[readonly] {
+    background-color: #fce4ec;
+}
